@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:title="Auto Reply Preferences">
+
+        <SwitchPreference
+            android:key="auto_reply_switch"
+            android:title="Enable Auto Reply"
+            android:defaultValue="false" />
+
+        <EditTextPreference
+            android:key="auto_reply_message"
+            android:title="Auto Reply Message"
+            android:summary="The message that is sent back if auto reply is enabled."
+            android:dialogTitle="Auto Reply Message" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>         
