@@ -21,7 +21,7 @@ public class MyPreferenceFragment extends PreferenceFragment {
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        // Set the background color to be black
+        // Set the background color to be gray
         getView().setBackgroundColor(getActivity().getResources().getColor(R.color.gray));
         getView().setClickable(true);
     }

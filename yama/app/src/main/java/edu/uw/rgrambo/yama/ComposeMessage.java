@@ -151,7 +151,11 @@ public class ComposeMessage extends AppCompatActivity {
     @Override
     protected void onStop()
     {
-        unregisterReceiver(broadcastReceiver);
+        try {
+            unregisterReceiver(broadcastReceiver);
+        } catch (IllegalArgumentException e) {
+            // Do nothing if its already unregistered
+        }
         super.onStop();
     }
 }
