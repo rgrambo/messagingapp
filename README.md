@@ -1,4 +1,4 @@
-![image](https://s17.postimg.org/bh5skf92n/yama.png)
+![image](https://s11.postimg.org/wqmu7y3nn/yama.png)
 
 # Yet Another Messaging App ("Yama")
 A simple messaging app that uses the SMS functionality of the phone. This app allows users to search their contacts, send messages, recieve messages, and setup an auto-reply.
